@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B1CC9AD1C3DE90F009C9D05 /* WRPhotoGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1CC9AC1C3DE90F009C9D05 /* WRPhotoGroupCell.swift */; };
+		7B1CC9AF1C3DEE14009C9D05 /* WRPhotoGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1CC9AE1C3DEE14009C9D05 /* WRPhotoGroupView.swift */; };
+		7B61D9A21C3CD64900921560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9A11C3CD64900921560 /* AppDelegate.swift */; };
+		7B61D9A41C3CD64900921560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9A31C3CD64900921560 /* ViewController.swift */; };
+		7B61D9A71C3CD64900921560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B61D9A51C3CD64900921560 /* Main.storyboard */; };
+		7B61D9A91C3CD64900921560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B61D9A81C3CD64900921560 /* Assets.xcassets */; };
+		7B61D9AC1C3CD64900921560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B61D9AA1C3CD64900921560 /* LaunchScreen.storyboard */; };
+		7B61D9B71C3CD64900921560 /* WRPhotoPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9B61C3CD64900921560 /* WRPhotoPickerTests.swift */; };
+		7B61D9C21C3CD64900921560 /* WRPhotoPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9C11C3CD64900921560 /* WRPhotoPickerUITests.swift */; };
+		7B61D9D11C3CD6B500921560 /* WRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9D01C3CD6B500921560 /* WRPhotoViewController.swift */; };
+		7B61D9D31C3CD71400921560 /* WRPhotoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9D21C3CD71400921560 /* WRPhotoViewControllerDelegate.swift */; };
+		7B61D9D51C3CD9D000921560 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B61D9D41C3CD9D000921560 /* AssetsLibrary.framework */; };
+		7B61D9D71C3CDBE500921560 /* WRPhotoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9D61C3CDBE500921560 /* WRPhotoListCell.swift */; };
+		7B61D9D91C3CDCBB00921560 /* WRTapAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9D81C3CDCBB00921560 /* WRTapAssetView.swift */; };
+		7B61D9DB1C3CF3F800921560 /* WRPhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61D9DA1C3CF3F800921560 /* WRPhotoListView.swift */; };
+		7B61D9DD1C3CFA2000921560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B61D9DC1C3CFA2000921560 /* Foundation.framework */; };
+		7BD937411C3E340600EE4CD0 /* WRConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD937401C3E340600EE4CD0 /* WRConstraint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B61D9B31C3CD64900921560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B61D9961C3CD64800921560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B61D99D1C3CD64900921560;
+			remoteInfo = WRPhotoPicker;
+		};
+		7B61D9BE1C3CD64900921560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B61D9961C3CD64800921560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B61D99D1C3CD64900921560;
+			remoteInfo = WRPhotoPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B1CC9AC1C3DE90F009C9D05 /* WRPhotoGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRPhotoGroupCell.swift; sourceTree = "<group>"; };
+		7B1CC9AE1C3DEE14009C9D05 /* WRPhotoGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRPhotoGroupView.swift; sourceTree = "<group>"; };
+		7B61D99E1C3CD64900921560 /* WRPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WRPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B61D9A11C3CD64900921560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B61D9A31C3CD64900921560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B61D9A61C3CD64900921560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B61D9A81C3CD64900921560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B61D9AB1C3CD64900921560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B61D9AD1C3CD64900921560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B61D9B21C3CD64900921560 /* WRPhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WRPhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B61D9B61C3CD64900921560 /* WRPhotoPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRPhotoPickerTests.swift; sourceTree = "<group>"; };
+		7B61D9B81C3CD64900921560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B61D9BD1C3CD64900921560 /* WRPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WRPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B61D9C11C3CD64900921560 /* WRPhotoPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRPhotoPickerUITests.swift; sourceTree = "<group>"; };
+		7B61D9C31C3CD64900921560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B61D9D01C3CD6B500921560 /* WRPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRPhotoViewController.swift; sourceTree = "<group>"; };
+		7B61D9D21C3CD71400921560 /* WRPhotoViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRPhotoViewControllerDelegate.swift; sourceTree = "<group>"; };
+		7B61D9D41C3CD9D000921560 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7B61D9D61C3CDBE500921560 /* WRPhotoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRPhotoListCell.swift; sourceTree = "<group>"; };
+		7B61D9D81C3CDCBB00921560 /* WRTapAssetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRTapAssetView.swift; sourceTree = "<group>"; };
+		7B61D9DA1C3CF3F800921560 /* WRPhotoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRPhotoListView.swift; sourceTree = "<group>"; };
+		7B61D9DC1C3CFA2000921560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BD937401C3E340600EE4CD0 /* WRConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WRConstraint.swift; path = ../../../autola/autola/WRConstraint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B61D99B1C3CD64900921560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B61D9DD1C3CFA2000921560 /* Foundation.framework in Frameworks */,
+				7B61D9D51C3CD9D000921560 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B61D9AF1C3CD64900921560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B61D9BA1C3CD64900921560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B61D9951C3CD64800921560 = {
+			isa = PBXGroup;
+			children = (
+				7B61D9DC1C3CFA2000921560 /* Foundation.framework */,
+				7B61D9D41C3CD9D000921560 /* AssetsLibrary.framework */,
+				7B61D9A01C3CD64900921560 /* WRPhotoPicker */,
+				7B61D9B51C3CD64900921560 /* WRPhotoPickerTests */,
+				7B61D9C01C3CD64900921560 /* WRPhotoPickerUITests */,
+				7B61D99F1C3CD64900921560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B61D99F1C3CD64900921560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B61D99E1C3CD64900921560 /* WRPhotoPicker.app */,
+				7B61D9B21C3CD64900921560 /* WRPhotoPickerTests.xctest */,
+				7B61D9BD1C3CD64900921560 /* WRPhotoPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B61D9A01C3CD64900921560 /* WRPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7B61D9CF1C3CD68300921560 /* WRPhotoPicker */,
+				7B61D9A11C3CD64900921560 /* AppDelegate.swift */,
+				7B61D9A31C3CD64900921560 /* ViewController.swift */,
+				7B61D9A51C3CD64900921560 /* Main.storyboard */,
+				7B61D9A81C3CD64900921560 /* Assets.xcassets */,
+				7B61D9AA1C3CD64900921560 /* LaunchScreen.storyboard */,
+				7B61D9AD1C3CD64900921560 /* Info.plist */,
+			);
+			path = WRPhotoPicker;
+			sourceTree = "<group>";
+		};
+		7B61D9B51C3CD64900921560 /* WRPhotoPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B61D9B61C3CD64900921560 /* WRPhotoPickerTests.swift */,
+				7B61D9B81C3CD64900921560 /* Info.plist */,
+			);
+			path = WRPhotoPickerTests;
+			sourceTree = "<group>";
+		};
+		7B61D9C01C3CD64900921560 /* WRPhotoPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B61D9C11C3CD64900921560 /* WRPhotoPickerUITests.swift */,
+				7B61D9C31C3CD64900921560 /* Info.plist */,
+			);
+			path = WRPhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+		7B61D9CF1C3CD68300921560 /* WRPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7BD937401C3E340600EE4CD0 /* WRConstraint.swift */,
+				7B61D9D01C3CD6B500921560 /* WRPhotoViewController.swift */,
+				7B61D9D21C3CD71400921560 /* WRPhotoViewControllerDelegate.swift */,
+				7B61D9D61C3CDBE500921560 /* WRPhotoListCell.swift */,
+				7B61D9D81C3CDCBB00921560 /* WRTapAssetView.swift */,
+				7B61D9DA1C3CF3F800921560 /* WRPhotoListView.swift */,
+				7B1CC9AC1C3DE90F009C9D05 /* WRPhotoGroupCell.swift */,
+				7B1CC9AE1C3DEE14009C9D05 /* WRPhotoGroupView.swift */,
+			);
+			path = WRPhotoPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B61D99D1C3CD64900921560 /* WRPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B61D9C61C3CD64900921560 /* Build configuration list for PBXNativeTarget "WRPhotoPicker" */;
+			buildPhases = (
+				7B61D99A1C3CD64900921560 /* Sources */,
+				7B61D99B1C3CD64900921560 /* Frameworks */,
+				7B61D99C1C3CD64900921560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRPhotoPicker;
+			productName = WRPhotoPicker;
+			productReference = 7B61D99E1C3CD64900921560 /* WRPhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B61D9B11C3CD64900921560 /* WRPhotoPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B61D9C91C3CD64900921560 /* Build configuration list for PBXNativeTarget "WRPhotoPickerTests" */;
+			buildPhases = (
+				7B61D9AE1C3CD64900921560 /* Sources */,
+				7B61D9AF1C3CD64900921560 /* Frameworks */,
+				7B61D9B01C3CD64900921560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B61D9B41C3CD64900921560 /* PBXTargetDependency */,
+			);
+			name = WRPhotoPickerTests;
+			productName = WRPhotoPickerTests;
+			productReference = 7B61D9B21C3CD64900921560 /* WRPhotoPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B61D9BC1C3CD64900921560 /* WRPhotoPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B61D9CC1C3CD64900921560 /* Build configuration list for PBXNativeTarget "WRPhotoPickerUITests" */;
+			buildPhases = (
+				7B61D9B91C3CD64900921560 /* Sources */,
+				7B61D9BA1C3CD64900921560 /* Frameworks */,
+				7B61D9BB1C3CD64900921560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B61D9BF1C3CD64900921560 /* PBXTargetDependency */,
+			);
+			name = WRPhotoPickerUITests;
+			productName = WRPhotoPickerUITests;
+			productReference = 7B61D9BD1C3CD64900921560 /* WRPhotoPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B61D9961C3CD64800921560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wbg;
+				TargetAttributes = {
+					7B61D99D1C3CD64900921560 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7B61D9B11C3CD64900921560 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B61D99D1C3CD64900921560;
+					};
+					7B61D9BC1C3CD64900921560 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B61D99D1C3CD64900921560;
+					};
+				};
+			};
+			buildConfigurationList = 7B61D9991C3CD64800921560 /* Build configuration list for PBXProject "WRPhotoPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B61D9951C3CD64800921560;
+			productRefGroup = 7B61D99F1C3CD64900921560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B61D99D1C3CD64900921560 /* WRPhotoPicker */,
+				7B61D9B11C3CD64900921560 /* WRPhotoPickerTests */,
+				7B61D9BC1C3CD64900921560 /* WRPhotoPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B61D99C1C3CD64900921560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B61D9AC1C3CD64900921560 /* LaunchScreen.storyboard in Resources */,
+				7B61D9A91C3CD64900921560 /* Assets.xcassets in Resources */,
+				7B61D9A71C3CD64900921560 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B61D9B01C3CD64900921560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B61D9BB1C3CD64900921560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B61D99A1C3CD64900921560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B61D9DB1C3CF3F800921560 /* WRPhotoListView.swift in Sources */,
+				7B1CC9AD1C3DE90F009C9D05 /* WRPhotoGroupCell.swift in Sources */,
+				7B1CC9AF1C3DEE14009C9D05 /* WRPhotoGroupView.swift in Sources */,
+				7BD937411C3E340600EE4CD0 /* WRConstraint.swift in Sources */,
+				7B61D9A41C3CD64900921560 /* ViewController.swift in Sources */,
+				7B61D9A21C3CD64900921560 /* AppDelegate.swift in Sources */,
+				7B61D9D91C3CDCBB00921560 /* WRTapAssetView.swift in Sources */,
+				7B61D9D11C3CD6B500921560 /* WRPhotoViewController.swift in Sources */,
+				7B61D9D71C3CDBE500921560 /* WRPhotoListCell.swift in Sources */,
+				7B61D9D31C3CD71400921560 /* WRPhotoViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B61D9AE1C3CD64900921560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B61D9B71C3CD64900921560 /* WRPhotoPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B61D9B91C3CD64900921560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B61D9C21C3CD64900921560 /* WRPhotoPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B61D9B41C3CD64900921560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B61D99D1C3CD64900921560 /* WRPhotoPicker */;
+			targetProxy = 7B61D9B31C3CD64900921560 /* PBXContainerItemProxy */;
+		};
+		7B61D9BF1C3CD64900921560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B61D99D1C3CD64900921560 /* WRPhotoPicker */;
+			targetProxy = 7B61D9BE1C3CD64900921560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B61D9A51C3CD64900921560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B61D9A61C3CD64900921560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B61D9AA1C3CD64900921560 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B61D9AB1C3CD64900921560 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B61D9C41C3CD64900921560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B61D9C51C3CD64900921560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B61D9C71C3CD64900921560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WRPhotoPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B61D9C81C3CD64900921560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WRPhotoPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B61D9CA1C3CD64900921560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WRPhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WRPhotoPicker.app/WRPhotoPicker";
+			};
+			name = Debug;
+		};
+		7B61D9CB1C3CD64900921560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WRPhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WRPhotoPicker.app/WRPhotoPicker";
+			};
+			name = Release;
+		};
+		7B61D9CD1C3CD64900921560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WRPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WRPhotoPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7B61D9CE1C3CD64900921560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WRPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbg.WRPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WRPhotoPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B61D9991C3CD64800921560 /* Build configuration list for PBXProject "WRPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B61D9C41C3CD64900921560 /* Debug */,
+				7B61D9C51C3CD64900921560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B61D9C61C3CD64900921560 /* Build configuration list for PBXNativeTarget "WRPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B61D9C71C3CD64900921560 /* Debug */,
+				7B61D9C81C3CD64900921560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B61D9C91C3CD64900921560 /* Build configuration list for PBXNativeTarget "WRPhotoPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B61D9CA1C3CD64900921560 /* Debug */,
+				7B61D9CB1C3CD64900921560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B61D9CC1C3CD64900921560 /* Build configuration list for PBXNativeTarget "WRPhotoPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B61D9CD1C3CD64900921560 /* Debug */,
+				7B61D9CE1C3CD64900921560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B61D9961C3CD64800921560 /* Project object */;
+}
